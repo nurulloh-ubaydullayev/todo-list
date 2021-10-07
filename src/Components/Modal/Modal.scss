@@ -1,0 +1,28 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(68, 68, 68, 0.384);
+}
+
+.modal-open {
+  display: flex;
+}
+
+.inner__modal {
+  padding: 40px 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.close-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(236, 4, 4);
+  color: white;
+  border: none;
+}
